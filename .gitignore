@@ -12,3 +12,15 @@ dist/
 .venv/
 venv/
 env/
+
+# Remove generated data
+train.csv
+val.csv
+
+# Remove data (large)
+/data/*
+!/data/.gitkeep
+
+# Remove results (large)
+/results/*
+!/results/.gitkeep
