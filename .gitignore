@@ -2,3 +2,13 @@
 __pycache__/
 *.py[cod]
 
+# Editable install / packaging artifacts
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
