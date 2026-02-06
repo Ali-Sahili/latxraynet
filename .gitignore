@@ -26,5 +26,5 @@ val.csv
 !/results/.gitkeep
 
 # Remove results (large)
-/weights/*
-!/weights/.gitkeep
+/latxraynet/weights/*
+!/latxraynet/weights/.gitkeep
