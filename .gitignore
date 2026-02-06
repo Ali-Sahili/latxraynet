@@ -28,3 +28,6 @@ val.csv
 # Remove results (large)
 /latxraynet/weights/*
 !/latxraynet/weights/.gitkeep
+
+# remove all generated weights
+*.pth
