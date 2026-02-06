@@ -24,3 +24,7 @@ val.csv
 # Remove results (large)
 /results/*
 !/results/.gitkeep
+
+# Remove results (large)
+/weights/*
+!/weights/.gitkeep

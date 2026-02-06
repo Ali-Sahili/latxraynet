@@ -29,7 +29,6 @@ pip install e .
 ```
 
 
-
 ## **Run Experiments**
 
 ### **1. Data Preparation**
@@ -87,6 +86,8 @@ Each experiment script typically defines:
   - Training configuration
   - Evaluation metrics (e.g., ROC-AUC, accuracy)
   - Plot results and save them in `results/<experiment_file>/` folder
+
+For experiments with `radimagenet` weights, you need to install them from [here](https://huggingface.co/Lab-Rasool/RadImageNet/tree/main) and put them in `latxraynet/weights`.
 
 
 ### **⚠️ Notes**
