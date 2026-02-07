@@ -12,6 +12,21 @@ license = { text = "MIT" }
 authors = [{ name = "Ali Rida SAHILI", email = "alirida.sahili@gmail.com" }]
 
 # Main dependencies
+dependencies = [
+    "numpy",
+    "pandas",
+    "torch",
+    "torchvision",
+    "torchxrayvision",
+    "segmentation_models_pytorch",
+    "scikit-learn",
+    "matplotlib",
+    "albumentations",
+    "opencv-python",
+    "tqdm",
+    "pycocotools",
+    "cdifflib"
+]
 
 # Optional dev dependencies
 optional-dependencies = { dev = ["pytest", "black", "mypy"] }
